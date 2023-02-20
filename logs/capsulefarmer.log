@@ -1,0 +1,402 @@
+2023-02-18 13:24:21,469 ERROR: Error in accountname. The program will try to recover.
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 769, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FarmThread.py", line 55, in run
+  File "Browser.py", line 167, in checkNewDrops
+  File "requests\sessions.py", line 600, in get
+  File "cloudscraper\__init__.py", line 257, in request
+  File "cloudscraper\__init__.py", line 190, in perform_request
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 547, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-02-18 13:24:21,471 WARNING: Thread accountname has finished and will restart at 13:24:21. Number of consecutively failed logins: 0
+2023-02-18 14:57:27,377 ERROR: Error in accountname. The program will try to recover.
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 769, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FarmThread.py", line 55, in run
+  File "Browser.py", line 167, in checkNewDrops
+  File "requests\sessions.py", line 600, in get
+  File "cloudscraper\__init__.py", line 257, in request
+  File "cloudscraper\__init__.py", line 190, in perform_request
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 547, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-02-18 14:57:27,379 WARNING: Thread accountname has finished and will restart at 14:57:27. Number of consecutively failed logins: 0
+2023-02-18 19:45:18,422 ERROR: Failed to send watch heartbeat for PCS
+2023-02-18 19:45:18,423 ERROR: Received unexpected status code. Wanted 201 but got 429 in https://rex.rewards.lolesports.com/v1/events/watch
+2023-02-18 22:22:49,305 ERROR: Error in accountname. The program will try to recover.
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 769, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FarmThread.py", line 55, in run
+  File "Browser.py", line 167, in checkNewDrops
+  File "requests\sessions.py", line 600, in get
+  File "cloudscraper\__init__.py", line 257, in request
+  File "cloudscraper\__init__.py", line 190, in perform_request
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 547, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-02-18 22:22:49,307 WARNING: Thread accountname has finished and will restart at 22:22:49. Number of consecutively failed logins: 0
+2023-02-18 22:27:07,810 ERROR: Error in accountname. The program will try to recover.
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 769, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FarmThread.py", line 55, in run
+  File "Browser.py", line 167, in checkNewDrops
+  File "requests\sessions.py", line 600, in get
+  File "cloudscraper\__init__.py", line 257, in request
+  File "cloudscraper\__init__.py", line 190, in perform_request
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 547, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-02-18 22:27:07,811 WARNING: Thread accountname has finished and will restart at 22:27:07. Number of consecutively failed logins: 0
+2023-02-18 22:37:36,101 ERROR: Error in accountname. The program will try to recover.
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 769, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FarmThread.py", line 55, in run
+  File "Browser.py", line 167, in checkNewDrops
+  File "requests\sessions.py", line 600, in get
+  File "cloudscraper\__init__.py", line 257, in request
+  File "cloudscraper\__init__.py", line 190, in perform_request
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 547, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-02-18 22:37:36,103 WARNING: Thread accountname has finished and will restart at 22:37:36. Number of consecutively failed logins: 0
+2023-02-18 22:40:50,661 ERROR: Error in accountname. The program will try to recover.
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 769, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FarmThread.py", line 55, in run
+  File "Browser.py", line 167, in checkNewDrops
+  File "requests\sessions.py", line 600, in get
+  File "cloudscraper\__init__.py", line 257, in request
+  File "cloudscraper\__init__.py", line 190, in perform_request
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 547, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-02-18 22:40:50,663 WARNING: Thread accountname has finished and will restart at 22:40:50. Number of consecutively failed logins: 0
+2023-02-18 22:49:21,831 ERROR: Error in accountname. The program will try to recover.
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 769, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FarmThread.py", line 55, in run
+  File "Browser.py", line 167, in checkNewDrops
+  File "requests\sessions.py", line 600, in get
+  File "cloudscraper\__init__.py", line 257, in request
+  File "cloudscraper\__init__.py", line 190, in perform_request
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 547, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-02-18 22:49:21,832 WARNING: Thread accountname has finished and will restart at 22:49:21. Number of consecutively failed logins: 0
+2023-02-18 22:51:33,639 ERROR: Error in accountname. The program will try to recover.
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 769, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FarmThread.py", line 55, in run
+  File "Browser.py", line 167, in checkNewDrops
+  File "requests\sessions.py", line 600, in get
+  File "cloudscraper\__init__.py", line 257, in request
+  File "cloudscraper\__init__.py", line 190, in perform_request
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 547, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-02-18 22:51:33,641 WARNING: Thread accountname has finished and will restart at 22:51:33. Number of consecutively failed logins: 0
+2023-02-19 13:28:25,781 ERROR: Error in accountname. The program will try to recover.
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 769, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FarmThread.py", line 55, in run
+  File "Browser.py", line 167, in checkNewDrops
+  File "requests\sessions.py", line 600, in get
+  File "cloudscraper\__init__.py", line 257, in request
+  File "cloudscraper\__init__.py", line 190, in perform_request
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 547, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-02-19 13:28:25,782 WARNING: Thread accountname has finished and will restart at 13:28:25. Number of consecutively failed logins: 0
+2023-02-19 16:15:17,378 ERROR: Error in accountname. The program will try to recover.
+Traceback (most recent call last):
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "requests\adapters.py", line 489, in send
+  File "urllib3\connectionpool.py", line 787, in urlopen
+  File "urllib3\util\retry.py", line 550, in increment
+  File "urllib3\packages\six.py", line 769, in reraise
+  File "urllib3\connectionpool.py", line 703, in urlopen
+  File "urllib3\connectionpool.py", line 449, in _make_request
+  File "<string>", line 3, in raise_from
+  File "urllib3\connectionpool.py", line 444, in _make_request
+  File "http\client.py", line 1374, in getresponse
+  File "http\client.py", line 318, in begin
+  File "http\client.py", line 287, in _read_status
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "FarmThread.py", line 55, in run
+  File "Browser.py", line 167, in checkNewDrops
+  File "requests\sessions.py", line 600, in get
+  File "cloudscraper\__init__.py", line 257, in request
+  File "cloudscraper\__init__.py", line 190, in perform_request
+  File "requests\sessions.py", line 587, in request
+  File "requests\sessions.py", line 701, in send
+  File "requests\adapters.py", line 547, in send
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2023-02-19 16:15:17,380 WARNING: Thread accountname has finished and will restart at 16:15:17. Number of consecutively failed logins: 0
